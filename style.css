@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1{
+    font-size:60px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+nav ul {
+    list-style: none;
+background-color: rgba(90, 14, 123, 0.44);
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 25px;
+width: 130px;
+}
+
+li{
+    text-decoration: none;
+}
+
+.start {
+    color: rgb(33, 1, 41);
+}
+
+a{
+text-decoration: none;
+}
+
+.side {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.img{
+    margin-right: 100px;
+}
+
+article {
+    margin-left: 100px;
+}
